@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="public/png" sizes="32x32" href="./public/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Frontend Mentor | Advice generator app</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: hsl(193, 38%, 86%);
+    }
+
+    .attribution a {
+      color: hsl(150, 100%, 66%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <p id="advice-no">Advice #<span id="advice__id"></span></p>
+      <p id="advice">
+      </p>
+
+      <div class="pattern-divider">
+        <picture>
+          <source srcset="./public/pattern-divider-desktop.svg" media="(min-width: 600px)">
+          <img src="./public/pattern-divider-mobile.svg" alt="">
+
+        </picture>
+      </div>
+      <div class="btn-container">
+        <button id="advice_btn">
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
+              fill="#202733" />
+          </svg>
+        </button>
+      </div>
+    </main>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/ashish1089">Ashish Behera</a>.
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
