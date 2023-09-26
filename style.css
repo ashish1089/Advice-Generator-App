@@ -49,6 +49,10 @@ main {
 #advice_id {
   color: var(--clr-neon-green);
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  padding-top: 1rem;
 }
 
 #advice {
